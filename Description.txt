@@ -1,0 +1,11 @@
+Hello, it's Jad Mattar. This is a description file of the project.
+
+In this code, after building an AI agent that solves the sudoku using csp and backtracking, we are going to make a model that read the Sudoku as image and solve the Sudoku and print the correct numbers on the image.
+
+Main Rule:
+Each row, column and block (9 spaces each) needs to be filled out with the numbers from 1 to 9, without repeating any numbers within the row, column or square.
+
+The solution should be returned based on the rule indicated above, no matter whether the sudoku is in easy or medium or hard mode.
+We used pytesseract library in order to read the numbers after preprocessing and filtering the images. You should install the library and link to the executer in line 5 of the file pyteseract_Sudoku.py.
+Read the image in line 5 of Main_project.py and the solution is saved in Solved_Sudoku.png.
+Nums folder is a folder that saves the numbers read on the sudoku.
